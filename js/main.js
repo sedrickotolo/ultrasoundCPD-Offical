@@ -107,3 +107,8 @@
     
 })(jQuery);
 
+// stop image from downloading
+jQuery("jpg").on("taphold", function(event) {
+    event.preventDefault();
+    event.stopImmediatePropagation();
+ })

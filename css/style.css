@@ -175,6 +175,12 @@
     flex-direction: column;
 }
 
+/* imaage not clickable */
+
+.img-prop{  
+    pointer-events: none;
+ }
+
 .header-carousel .owl-nav .owl-prev,
 .header-carousel .owl-nav .owl-next {
     margin: 7px 0;
@@ -254,6 +260,24 @@
 
 /*** Service ***/
 
+.mobile-view-big{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    
+   
+}
+
+@media screen and (max-width:600px) {
+    .mobile-view{
+        /* background-color: black; */
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        gap: 0rem;
+        margin-top: -10px;
+        width: 100%;
+    }
+}
 .justify-text{
     text-align: justify !important;
 }
