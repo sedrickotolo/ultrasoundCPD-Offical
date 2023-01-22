@@ -253,6 +253,14 @@
 
 
 /*** Service ***/
+
+.justify-text{
+    text-align: justify !important;
+}
+.justify-left{
+    text-align: left !important;
+}
+
 .service-item {
     background: var(--light);
     transition: .5s;
